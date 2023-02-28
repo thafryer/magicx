@@ -45,3 +45,11 @@ export const Small: Story = {
     backgroundColor: "black",
   },
 };
+
+export const Tertiary: Story = {
+  args: {
+    primary: true,
+    label: "Button",
+    backgroundColor: "#FC521F",
+  },
+};
