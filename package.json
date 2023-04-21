@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=1a63f59a25ac"
+    "chromatic": "npx chromatic --project-token=1a63f59a25ac",
+    "staging-chromatic": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com npx chromatic --project-token=eb797c0ea476"
   },
   "dependencies": {
     "@types/node": "18.14.2",

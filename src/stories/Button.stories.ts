@@ -45,3 +45,11 @@ export const Small: Story = {
     backgroundColor: "black",
   },
 };
+
+export const Green: Story = {
+  args: {
+    size: "small",
+    label: "Button",
+    backgroundColor: "green",
+  },
+};
