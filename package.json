@@ -10,7 +10,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=1a63f59a25ac",
-    "staging-chromatic": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com npx chromatic --project-token=eb797c0ea476"
+    "staging-chromatic": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com npx chromatic --project-token=eb797c0ea476",
+    "dev-chromatic": "CHROMATIC_INDEX_URL=https://www.dev-chromatic.com npx chromatic --project-token=55ba605fd7d6"
   },
   "dependencies": {
     "@types/node": "18.14.2",

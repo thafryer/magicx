@@ -1,11 +1,11 @@
 @storybook/cli v7.0.0-beta.55
 
-info => Cleaning outputDir: /var/folders/7m/1hb_b3jn5rb08zd8bjxv_c9m0000gn/T/chromatic--60075-KBzQ9q6vqCGC
+info => Cleaning outputDir: /var/folders/7m/1hb_b3jn5rb08zd8bjxv_c9m0000gn/T/chromatic--91821-LvwGYDoaRa3y
 info => Loading presets
 info => Building manager..
-info => Manager built (107 ms)
+info => Manager built (99 ms)
 info => Compiling preview..
-info => Copying static files: /Users/thafryer/Tutorials/magicx/node_modules/@storybook/manager/static at /var/folders/7m/1hb_b3jn5rb08zd8bjxv_c9m0000gn/T/chromatic--60075-KBzQ9q6vqCGC/sb-common-assets
+info => Copying static files: /Users/thafryer/Tutorials/magicx/node_modules/@storybook/manager/static at /var/folders/7m/1hb_b3jn5rb08zd8bjxv_c9m0000gn/T/chromatic--91821-LvwGYDoaRa3y/sb-common-assets
 WARN You (or an addon) are using the 'config' preset field. This has been replaced by 'previewAnnotations' and will be removed in 8.0
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
@@ -113,17 +113,17 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 10% building 0/1 entries 1/1 dependencies 0/1 modules
-<s> [webpack.Progress] 23% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
-<s> [webpack.Progress] 23% building 0/1 entries 23/57 dependencies 5/20 modules
+<s> [webpack.Progress] 19% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
+<s> [webpack.Progress] 19% building 0/1 entries 26/51 dependencies 4/23 modules
 <s> [webpack.Progress] 23% building import loader ./node_modules/unplugin/dist/webpack/loaders/load.js
 <s> [webpack.Progress] 23% building 0/1 entries 40/94 dependencies 7/29 modules
 <s> [webpack.Progress] 20% building import loader ./node_modules/@storybook/nextjs/dist/next-image-loader-stub.js
-<s> [webpack.Progress] 20% building 0/1 entries 54/94 dependencies 8/42 modules
-<s> [webpack.Progress] 39% building import loader ./node_modules/style-loader/dist/cjs.js
-<s> [webpack.Progress] 39% building import loader ./node_modules/css-loader/dist/cjs.js
-<s> [webpack.Progress] 39% building import loader ./node_modules/postcss-loader/dist/cjs.js
-<s> [webpack.Progress] 39% building 0/1 entries 363/437 dependencies 93/173 modules
-<s> [webpack.Progress] 53% building 0/1 entries 1100/1147 dependencies 340/427 modules
+<s> [webpack.Progress] 20% building 0/1 entries 52/94 dependencies 8/41 modules
+<s> [webpack.Progress] 41% building import loader ./node_modules/style-loader/dist/cjs.js
+<s> [webpack.Progress] 41% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 41% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 41% building 0/1 entries 406/468 dependencies 105/181 modules
+<s> [webpack.Progress] 49% building 0/1 entries 1079/1100 dependencies 310/430 modules
 <s> [webpack.Progress] 65% building 1/1 entries 1720/1720 dependencies 757/757 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
@@ -143,7 +143,10 @@ DeprecationWarning: 'createLiteral' has been deprecated since v4.0.0. Use `facto
 DeprecationWarning: 'createBinaryExpression' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createExpressionStatement' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createPropertyAssignment' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
+DeprecationWarning: 'createNull' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
+DeprecationWarning: 'createFalse' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createObjectLiteralExpression' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
+DeprecationWarning: 'createTrue' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createExpressionStatement' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createTypeOfExpression' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createElementAccessExpression' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
@@ -152,10 +155,7 @@ DeprecationWarning: 'createBlock' has been deprecated since v4.0.0. Use the appr
 DeprecationWarning: 'createVariableDeclaration' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createCatchClause' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createTryStatement' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
-DeprecationWarning: 'createFalse' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
-DeprecationWarning: 'createNull' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 DeprecationWarning: 'createArrayLiteralExpression' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
-DeprecationWarning: 'createTrue' has been deprecated since v4.0.0. Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.
 <s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
 <s> [webpack.Progress] 70% sealing plugins
 <s> [webpack.Progress] 71% sealing dependencies optimization
@@ -245,14 +245,14 @@ DeprecationWarning: 'createTrue' has been deprecated since v4.0.0. Use the appro
 <s> [webpack.Progress] 92% sealing asset processing TerserPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.4a17e35f.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.4a17e35f.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.90c44bf7.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.90c44bf7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.527a7917.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.527a7917.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.552c1152.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.552c1152.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Introduction-mdx.c52b6891.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Introduction-mdx.c52b6891.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Button-stories.27566082.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Button-stories.27566082.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Button-stories.526ae0de.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Button-stories.526ae0de.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Header-stories.1a0b56bc.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Header-stories.1a0b56bc.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Page-stories.a7c385be.iframe.bundle.js generate SourceMap
@@ -298,10 +298,10 @@ DeprecationWarning: 'createTrue' has been deprecated since v4.0.0. Use the appro
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.c1fa2748.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.c1fa2748.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.36483c2f.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.36483c2f.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Button-stories.db156fb5.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Button-stories.db156fb5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.2c4d312e.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.2c4d312e.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Button-stories.de812897.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Button-stories.de812897.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Header-stories.d9e52b3b.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Header-stories.d9e52b3b.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Page-stories.4eebfe4c.iframe.bundle.js generate SourceMap
@@ -364,7 +364,7 @@ WARN   159.dbf4a007.iframe.bundle.js (404 KiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
 WARN   main (1000 KiB)
-WARN       runtime~main.36483c2f.iframe.bundle.js
+WARN       runtime~main.2c4d312e.iframe.bundle.js
 WARN       473.9fefb27f.iframe.bundle.js
 WARN       main.c1fa2748.iframe.bundle.js
 WARN 
@@ -372,4 +372,4 @@ WARN
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-info => Output directory: /var/folders/7m/1hb_b3jn5rb08zd8bjxv_c9m0000gn/T/chromatic--60075-KBzQ9q6vqCGC
+info => Output directory: /var/folders/7m/1hb_b3jn5rb08zd8bjxv_c9m0000gn/T/chromatic--91821-LvwGYDoaRa3y
